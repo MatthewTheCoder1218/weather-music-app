@@ -95,8 +95,8 @@ useEffect(() => {
         <h1 className="text-[2.5rem] font-bold">Music That Matches Your Weather.</h1>
         <h4 className="text-2xl mt-2">Enter your location to get music that fits your current mood and sky</h4>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 mt-6">
-          <div className="bg-gray-100 p-4 rounded-lg border-2 h-12 w-[400px] flex items-center border-gray-300">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 mt-4 py-4 sm:py-0 w-full sm:w-[400px]">
+          <div className="bg-gray-100 p-4 rounded-lg border-2 h-12 w-full sm:w-[400px] flex items-center border-gray-300">
             <input
               type="text"
               placeholder="Enter your location"
